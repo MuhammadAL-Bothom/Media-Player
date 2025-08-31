@@ -1,0 +1,26 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="48dp"
+    android:height="48dp"
+    android:viewportWidth="24"
+    android:viewportHeight="24">
+    <!-- Center tall bar -->
+    <path
+        android:fillColor="#000000"
+        android:pathData="M11,4h2v16h-2z"/>
+    <!-- Left medium bar -->
+    <path
+        android:fillColor="#000000"
+        android:pathData="M7,8h2v8h-2z"/>
+    <!-- Right medium bar -->
+    <path
+        android:fillColor="#000000"
+        android:pathData="M15,8h2v8h-2z"/>
+    <!-- Left small bar -->
+    <path
+        android:fillColor="#000000"
+        android:pathData="M3,10h2v4H3z"/>
+    <!-- Right small bar -->
+    <path
+        android:fillColor="#000000"
+        android:pathData="M19,10h2v4h-2z"/>
+</vector>

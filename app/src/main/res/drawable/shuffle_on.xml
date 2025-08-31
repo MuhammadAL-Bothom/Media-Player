@@ -1,0 +1,33 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="24dp" android:height="24dp"
+    android:viewportWidth="24" android:viewportHeight="24">
+
+    <!-- Solid circle -->
+    <path
+        android:fillColor="#000000"
+        android:pathData="M12,2a10,10 0 1,0 0,20a10,10 0 1,0 0,-20" />
+
+    <!-- Top curved path (white stroke) -->
+    <path
+        android:fillColor="#00000000"
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="2.6"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round"
+        android:pathData="M4,8 C8,8 10.5,12 12,12 C13.5,12 15.5,10 16,8" />
+
+    <!-- Bottom curved path (white stroke) -->
+    <path
+        android:fillColor="#00000000"
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="2.6"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round"
+        android:pathData="M4,16 C8,16 10.5,12 12,12 C13.5,12 15.5,14 16,16" />
+
+    <!-- Arrowheads (white) -->
+    <path android:fillColor="#FFFFFF"
+        android:pathData="M16,6 L20,8 L16,10 Z" />
+    <path android:fillColor="#FFFFFF"
+        android:pathData="M16,14 L20,16 L16,18 Z" />
+</vector>

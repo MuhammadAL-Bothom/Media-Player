@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="6dp"
+    app:cardCornerRadius="18dp"
+    app:cardElevation="4dp"
+    app:strokeWidth="1dp"
+    app:strokeColor="?attr/colorOutline">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="72dp"
+        android:padding="10dp">
+
+        <ImageView
+            android:id="@+id/artThumb"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/ic_waveform"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"/>
+
+        <TextView
+            android:id="@+id/trackTitle"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="Title"
+            android:textStyle="bold"
+            android:maxLines="1"
+            android:ellipsize="end"
+            android:textSize="16sp"
+            app:layout_constraintTop_toTopOf="@id/artThumb"
+            app:layout_constraintStart_toEndOf="@id/artThumb"
+            app:layout_constraintEnd_toStartOf="@id/trackDuration"
+            android:layout_marginStart="10dp"/>
+
+        <TextView
+            android:id="@+id/trackArtist"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="Artist"
+            android:maxLines="1"
+            android:ellipsize="end"
+            app:layout_constraintTop_toBottomOf="@id/trackTitle"
+            app:layout_constraintStart_toStartOf="@id/trackTitle"
+            app:layout_constraintEnd_toStartOf="@id/trackDuration"/>
+
+        <TextView
+            android:id="@+id/trackDuration"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="00:00"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"/>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</com.google.android.material.card.MaterialCardView>

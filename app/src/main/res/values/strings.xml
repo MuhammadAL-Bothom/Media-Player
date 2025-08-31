@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Media2 Player</string>
+    <string name="noti_channel_name">Playback</string>
+    <string name="noti_channel_desc">Music playback controls</string>
+
+    <string name="play">Play</string>
+    <string name="pause">Pause</string>
+    <string name="next">Next</string>
+    <string name="prev">Previous</string>
+    <string name="stop">Stop</string>
+</resources>
